@@ -33,11 +33,11 @@ export default function RootLayout({
           src="https://plausible.gonzalochale.dev/js/script.outbound-links.js"
         ></script>
       </head>
-      <body className={`${geist.className} antialiased`}>
-        
-          <NavBar />
-          {children}
-        
+      <body className={`${geist.className} antialiased bg-stone-200`}>
+
+        <NavBar />
+        {children}
+
       </body>
     </html>
   );
