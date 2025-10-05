@@ -29,7 +29,7 @@ export default function NavBar() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 w-full backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <nav className="sticky top-0 z-50 w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex sm:hidden">
@@ -53,7 +53,7 @@ export default function NavBar() {
             </Link>
           </div>
           <div className="hidden sm:flex items-center space-x-8">
-            <Link href="/" className="font-light tracking-tighter text-2xl">
+            <Link href="/" className="font-bold text-white tracking-tighter text-2xl">
               Remember Me
             </Link>
           </div>
