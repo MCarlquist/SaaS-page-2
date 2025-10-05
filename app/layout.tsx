@@ -34,10 +34,10 @@ export default function RootLayout({
         ></script>
       </head>
       <body className={`${geist.className} antialiased`}>
-        <Providers>
+        
           <NavBar />
           {children}
-        </Providers>
+        
       </body>
     </html>
   );
